@@ -42,4 +42,4 @@ This program is useful for experimenting with image processing algorithm. It tak
 3. Use ```self.append()``` to add interesting intermediate result to the canvas
 4. Use ```self.start_watch()``` and ```self.stop_watch()``` to analyze the time consumed by the code between
 
-**Do not change (or with much) care the main() and loop() methods.** The risk is, that the programme hangs when showing new images.
+**Do not change (or with much care) the main() and loop() methods.** The risk is, that the programme hangs when showing new images.
