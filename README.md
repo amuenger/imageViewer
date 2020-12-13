@@ -7,9 +7,24 @@ This program is useful for experimenting with image processing algorithm. It tak
 ## Features
 
 - Show images in a canvas
+
+![Screenshot](\images-in-readme\canvas.png)
+
 - Stores the images in the canvas in the debug folder temporarily until the next image is processed
-- Functions to analyse time consumed by code sequences
 - Object oriented. The own application class inherits from imageVier class.
+- Functions to analyse time consumed by code sequences
+
+```console
+[INFO] Show file [0] F:\_Andi\_VCProjekte\imageViewer\Data\Face1.jpg 
+[INFO] applying cvtColor to YCR_CB took 0.006 seconds
+[INFO] total 0.006 seconds
+[INFO] Show file [1] F:\_Andi\_VCProjekte\imageViewer\Data\Face11.jpg 
+[INFO] applying cvtColor to YCR_CB took 0.005 seconds
+[INFO] total 0.005 seconds
+[INFO] Show file [2] F:\_Andi\_VCProjekte\imageViewer\Data\Face12.jpg 
+[INFO] applying cvtColor to YCR_CB took 0.005 seconds
+[INFO] total 0.005 seconds
+```
 
 ## Hot keys
 
