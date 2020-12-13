@@ -22,8 +22,10 @@ class MyExperimenting(sampleViewer.SampleViewer):
 
         # demo case 
         # pot your own code here
+        self.start_watch()
         YCRImg = cv2.cvtColor(self.imOrigin, cv2.COLOR_BGR2YCR_CB)
         Y, CR, CB = cv2.split(YCRImg)
+        self.stop_watch("cvtColor to YCR_CB")
 
         self.append("Y {}", Y) 
         self.append("CR {}", CR)
