@@ -27,9 +27,9 @@ class MyExperimenting(sampleViewer.SampleViewer):
         Y, CR, CB = cv2.split(YCRImg)
         self.stop_watch("cvtColor to YCR_CB")
 
-        self.append("Y {}", Y) 
-        self.append("CR {}", CR)
-        self.append("CB {}", CB)
+        self.append("Y", Y) 
+        self.append("CR", CR)
+        self.append("CB", CB)
 
 def main():
     viewer = sampleViewer.SampleViewer()
