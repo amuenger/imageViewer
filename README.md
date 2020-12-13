@@ -8,7 +8,7 @@ This program is useful for experimenting with image processing algorithm. It tak
 
 - Show images in a canvas
 
-![Screenshot](\images-in-readme\canvas.png)
+![Canvas](./images-in-readme/canvas.png)
 
 - Stores the images in the canvas in the debug folder temporarily until the next image is processed
 - Object oriented. The own application class inherits from imageVier class.
